@@ -40,6 +40,7 @@ projects[views] = 3.3
 projects[media] = 1.1
 projects[pushtape_features] = 1.4
 projects[entityreference] = 1.0-rc3
+projects[entity] = 1.0-rc3
 projects[references] = 2.0
 
 projects[omega] = 3.1
