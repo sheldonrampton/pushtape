@@ -346,6 +346,9 @@ function pushtape_install() {
   variable_set('admin_theme', 'seven');
   variable_set('theme_default', 'seven');
   variable_set('site_frontpage', 'releases');
+  variable_set('pathauto_node_pattern', '[node:title]');
+  variable_set('pathauto_album_pattern', 'release/[node:title]');
+  variable_set('pathauto_track_pattern', 'track/[node:title]');
   // variable_set('clean_url', 1);
   //variable_set('site_footer', 'Built with Pushtape');
   // variable_set('node_admin_theme', '1');  

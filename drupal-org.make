@@ -37,13 +37,13 @@ projects[pathauto] = 1.1
 projects[ctools] = 1.0
 projects[token] = 1.1
 projects[views] = 3.3
-projects[media] = 1.1
-projects[pushtape_features] = 1.4
+projects[media] = 1.2
+projects[pushtape_ui] = 1.x-dev
+projects[pushtape_discography] = 1.x-dev
 projects[entityreference] = 1.0-rc3
 projects[entity] = 1.0-rc3
-projects[references] = 2.0
 
-projects[omega] = 3.1
+;projects[omega] = 3.1
 
 ;@todo - Move this to the libraries directory
 ;library[profiler] = 2.0-beta1
