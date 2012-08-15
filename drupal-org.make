@@ -8,7 +8,7 @@
 
 ; The version of Drupal the profile is built for. You must include both a
 ; major and a minor release - just specifying 6.x won't work
-core = 7.14
+core = 7.15
 api = 2
 
 ; OPTIONAL ATTRIBUTES
@@ -32,10 +32,10 @@ api = 2
 ; version string. For example, if you wanted to specify Views 6.x-2.7,
 ; you would use:
 
-projects[features] = 1.0-rc3
-projects[pathauto] = 1.1
-projects[ctools] = 1.0
-projects[token] = 1.1
+projects[features] = 1.0
+projects[pathauto] = 1.2
+projects[ctools] = 1.1
+projects[token] = 1.2
 projects[views] = 3.3
 projects[media] = 1.2
 projects[pushtape_ui] = 1.x-dev
@@ -50,10 +50,6 @@ projects[entity] = 1.0-rc3
 
 ; For pre-releases, like Image 6.x-1.0-beta3, use this format:
 ;projects[image] = 1.0-beta3
-
-; projects[pathauto] = 1.2
-; projects[token] = 1.12
-; projects[logintoboggan] = 1.6
 
 
 ; To define more attributes for a specific project than just the version,
