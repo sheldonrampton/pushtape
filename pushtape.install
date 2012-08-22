@@ -6,9 +6,9 @@
 */
 function pushtape_install() {  
   // Enable themes
-  theme_enable(array('alpha', 'seven'));
-  variable_set('admin_theme', 'seven');
-  variable_set('theme_default', 'seven');
+  theme_enable(array('seven', 'flux'));
+  variable_set('admin_theme', 'flux');
+  variable_set('theme_default', 'flux');
   variable_set('site_frontpage', 'releases');
   variable_set('pathauto_node_pattern', '[node:title]');
   variable_set('pathauto_node_album_pattern', 'release/[node:title]');
@@ -100,6 +100,68 @@ function pushtape_install() {
   );
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
+  
+  // Enable some standard blocks.
+  $default_theme = 'flux';
+  $admin_theme = 'flux';
+  $values = array(
+    array(
+      'module' => 'system', 
+      'delta' => 'main', 
+      'theme' => $default_theme, 
+      'status' => 1, 
+      'weight' => 0, 
+      'region' => 'content', 
+      'pages' => '', 
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system', 
+      'delta' => 'help', 
+      'theme' => $default_theme, 
+      'status' => 1, 
+      'weight' => 0, 
+      'region' => 'help', 
+      'pages' => '', 
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'views', 
+      'delta' => 'releases-block_1', 
+      'theme' => $default_theme, 
+      'status' => 1, 
+      'weight' => 0, 
+      'region' => 'sidebar_second', 
+      'pages' => '', 
+      'cache' => -1,
+    ),    
+    array(
+      'module' => 'system', 
+      'delta' => 'main', 
+      'theme' => $admin_theme, 
+      'status' => 1, 
+      'weight' => 0, 
+      'region' => 'content', 
+      'pages' => '', 
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system', 
+      'delta' => 'help', 
+      'theme' => $admin_theme, 
+      'status' => 1, 
+      'weight' => 0, 
+      'region' => 'help', 
+      'pages' => '', 
+      'cache' => -1,
+    ),
+  );
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();  
+  
 }
 
 

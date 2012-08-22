@@ -43,6 +43,8 @@ projects[pushtape_discography] = 1.x-dev
 projects[entityreference] = 1.0-rc3
 projects[entity] = 1.0-rc3
 projects[link] = 1.0
+projects[pushtape_discography] = 1.x-dev
+projects[flux] = 1.x-dev
 
 ;projects[omega] = 3.1
 
