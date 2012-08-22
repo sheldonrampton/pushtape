@@ -34,14 +34,15 @@ api = 2
 
 projects[features] = 1.0
 projects[pathauto] = 1.2
-projects[ctools] = 1.1
+projects[ctools] = 1.2
 projects[token] = 1.2
-projects[views] = 3.3
+projects[views] = 3.4
 projects[media] = 1.2
 projects[pushtape_ui] = 1.x-dev
 projects[pushtape_discography] = 1.x-dev
 projects[entityreference] = 1.0-rc3
 projects[entity] = 1.0-rc3
+projects[link] = 1.0
 
 ;projects[omega] = 3.1
 
