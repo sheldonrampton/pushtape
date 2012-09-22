@@ -43,6 +43,9 @@ function pushtape_install() {
   // Allow visitor account creation with administrative approval.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
   
+  // Disable secondary menu link source.
+  variable_set('menu_secondary_links_source', '');
+  
   /**
    * Some input formats
    */
