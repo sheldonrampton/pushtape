@@ -37,12 +37,10 @@ projects[pathauto] = 1.2
 projects[ctools] = 1.2
 projects[token] = 1.4
 projects[views] = 3.5
-projects[media] = 1.2
 projects[pushtape_ui] = 1.x-dev
 projects[pushtape_discography] = 1.x-dev
 projects[entityreference] = 1.0-rc5
 projects[entity] = 1.0-rc3
-projects[link] = 1.0
 projects[pushtape_discography] = 1.x-dev
 projects[flux] = 1.x-dev
 
