@@ -25,7 +25,6 @@ dependencies[] = entity
 dependencies[] = ctools
 dependencies[] = token
 dependencies[] = views
-dependencies[] = media
 
 ;Install Profile
 dependencies[] = pushtape_ui
