@@ -127,6 +127,7 @@ function pushtape_install() {
       'pages' => '', 
       'cache' => -1,
     ),
+    /*
     array(
       'module' => 'views', 
       'delta' => 'releases-block_1', 
@@ -136,7 +137,8 @@ function pushtape_install() {
       'region' => 'sidebar_second', 
       'pages' => '', 
       'cache' => -1,
-    ),    
+    ),
+    */
   );
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($values as $record) {
