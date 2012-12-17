@@ -127,18 +127,16 @@ function pushtape_install() {
       'pages' => '', 
       'cache' => -1,
     ),
-    /*
     array(
-      'module' => 'views', 
-      'delta' => 'releases-block_1', 
+      'module' => 'menu', 
+      'delta' => 'menu-pushtape', 
       'theme' => $default_theme, 
       'status' => 1, 
       'weight' => 0, 
-      'region' => 'sidebar_second', 
+      'region' => 'top', 
       'pages' => '', 
       'cache' => -1,
     ),
-    */
   );
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($values as $record) {
