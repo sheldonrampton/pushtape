@@ -40,6 +40,7 @@ projects[views] = 3.5
 projects[pushtape_ui] = 1.x-dev
 projects[pushtape_discography] = 1.x-dev
 projects[pushtape_admin] = 1.x-dev
+projects[pushtape_news] = 1.x-dev
 projects[entityreference] = 1.0
 projects[entity] = 1.0-rc3
 projects[pushtape_discography] = 1.x-dev

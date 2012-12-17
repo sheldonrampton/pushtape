@@ -30,6 +30,7 @@ dependencies[] = views
 dependencies[] = pushtape_ui
 dependencies[] = pushtape_discography
 dependencies[] = pushtape_admin
+dependencies[] = pushtape_news
 
 files[] = pushtape.profile
 
