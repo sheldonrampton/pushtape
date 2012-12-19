@@ -31,11 +31,16 @@ function pushtape_install() {
   variable_set('node_preview_track', 0);
   variable_set('node_preview_album', 0);
 
+  // Default dates
+  variable_set('date_format_short', 'F j, Y'); 
+  variable_set('date_format_medium', 'M j, Y'); 
+  variable_set('date_format_long', 'n/j/Y'); 
 
   // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
   variable_set('node_submitted_track', FALSE);
   variable_set('node_submitted_album', FALSE);
+  variable_set('node_submitted_event', FALSE);
 
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '1');
@@ -116,7 +121,8 @@ function pushtape_install() {
       'theme' => $default_theme, 
       'status' => 1, 
       'weight' => 0, 
-      'region' => 'content', 
+      'region' => 'content',
+      'visibility' => 0,        
       'pages' => '', 
       'cache' => -1,
     ),
@@ -126,7 +132,8 @@ function pushtape_install() {
       'theme' => $default_theme, 
       'status' => 1, 
       'weight' => 0, 
-      'region' => 'help', 
+      'region' => 'help',
+      'visibility' => 0,        
       'pages' => '', 
       'cache' => -1,
     ),
@@ -136,12 +143,24 @@ function pushtape_install() {
       'theme' => $default_theme, 
       'status' => 1, 
       'weight' => 0, 
-      'region' => 'top', 
+      'region' => 'top',
+      'visibility' => 0,        
       'pages' => '', 
       'cache' => -1,
     ),
+    array(
+      'module' => 'views', 
+      'delta' => 'events-block_1', 
+      'theme' => $default_theme, 
+      'status' => 1, 
+      'weight' => 10, 
+      'region' => 'content',
+      'visibility' => 1,     
+      'pages' => 'shows', 
+      'cache' => -1,
+    ),    
   );
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'visibility', 'pages', 'cache'));
   foreach ($values as $record) {
     $query->values($record);
   }
