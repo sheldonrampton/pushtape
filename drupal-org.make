@@ -64,7 +64,7 @@ projects[flux] = 1.x-dev
 ; Note that any referenced third-party libraries *must* be listed at
 ; http://drupal.org/packaging-whitelist
 libraries[colorbox][download][type] = get
-libraries[colorbox][download][url] = http://www.jacklmoore.com/colorbox/colorbox.zip
+libraries[colorbox][download][url] = http://jacklmoore.com/colorbox/colorbox.zip
 libraries[colorbox][destination] = libraries
 
 ;@todo - Move this to the libraries directory
