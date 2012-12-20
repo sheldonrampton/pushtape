@@ -40,8 +40,12 @@ projects[entity] = 1.0-rc3
 projects[ctools] = 1.2
 projects[token] = 1.4
 projects[views] = 3.5
+;Events
 projects[date] = 2.6
 projects[link] = 1.0
+;Photos
+projects[colorbox] = 2.0
+projects[libraries] = 2.0
 
 ;Distribution
 projects[pushtape_ui] = 1.x-dev
@@ -49,6 +53,7 @@ projects[pushtape_discography] = 1.x-dev
 projects[pushtape_admin] = 1.x-dev
 projects[pushtape_news] = 1.x-dev
 projects[pushtape_events] = 1.x-dev
+projects[pushtape_photos] = 1.x-dev
 
 ;Theme
 projects[flux] = 1.x-dev
