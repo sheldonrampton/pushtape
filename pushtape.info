@@ -1,6 +1,10 @@
-name = Pushtape
-description = Music publishing profile. 
+name = Pushtape Music
+description = A ready-to-use music website package with discography, news, photos, events, and more.
 core = 7.x
+distribution_name = Pushtape
+
+;Make this the default install profile
+exclusive = 1
 
 ; Core
 dependencies[] = block
@@ -12,7 +16,6 @@ dependencies[] = number
 dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
-dependencies[] = toolbar
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
