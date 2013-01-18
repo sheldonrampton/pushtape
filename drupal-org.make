@@ -44,7 +44,7 @@ projects[views] = 3.5
 projects[date] = 2.6
 projects[link] = 1.0
 ;Photos
-projects[colorbox] = 2.0
+projects[colorbox] = 2.1
 projects[libraries] = 2.0
 
 ;Distribution
