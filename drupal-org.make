@@ -48,16 +48,16 @@ projects[colorbox] = 2.2
 projects[libraries] = 2.0
 
 ;Distribution
-projects[pushtape_ui] = 1.0-alpha1
-projects[pushtape_discography] = 1.0-alpha1
-projects[pushtape_admin] = 1.0-alpha1
-projects[pushtape_news] = 1.0-alpha1
-projects[pushtape_events] = 1.0-alpha1
-projects[pushtape_photos] = 1.0-alpha1
-projects[pushtape_audio] = 1.0-alpha1
+projects[pushtape_ui] = 1.0-alpha2
+projects[pushtape_discography] = 1.0-alpha2
+projects[pushtape_admin] = 1.0-alpha2
+projects[pushtape_news] = 1.0-alpha2
+projects[pushtape_events] = 1.0-alpha2
+projects[pushtape_photos] = 1.0-alpha2
+projects[pushtape_audio] = 1.0-alpha2
 
 ;Theme
-projects[flux] = 1.0-alpha1
+projects[flux] = 1.0-alpha2
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'
