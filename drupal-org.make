@@ -42,10 +42,13 @@ projects[token] = 1.4
 projects[views] = 3.5
 ;Events
 projects[date] = 2.6
-projects[link] = 1.0
+projects[link] = 1.1
 ;Photos
-projects[colorbox] = 2.2
+projects[colorbox] = 2.3
 projects[libraries] = 2.0
+;Audio
+project[soundmanager2] = 2.0-beta1
+
 
 ;Distribution
 projects[pushtape_ui] = 1.0-alpha2
@@ -67,6 +70,10 @@ projects[flux] = 1.0-alpha2
 libraries[colorbox][download][type] = get
 libraries[colorbox][download][url] = http://jacklmoore.com/colorbox/colorbox.zip
 libraries[colorbox][destination] = libraries
+libraries[soundmanager2][download][type] = git
+libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2.git
+libraries[soundmanager2][destination] = libraries
+
 
 ;@todo - Move this to the libraries directory
 ;library[profiler] = 2.0-beta1
