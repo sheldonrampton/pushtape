@@ -47,7 +47,7 @@ projects[link] = 1.1
 projects[colorbox] = 2.3
 projects[libraries] = 2.0
 ;Audio
-project[soundmanager2] = 2.0-beta1
+projects[soundmanager2] = 2.0-beta1
 
 
 ;Distribution
