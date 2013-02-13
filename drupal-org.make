@@ -70,8 +70,8 @@ projects[flux] = 1.0-alpha2
 libraries[colorbox][download][type] = get
 libraries[colorbox][download][url] = http://jacklmoore.com/colorbox/colorbox.zip
 libraries[colorbox][destination] = libraries
-libraries[soundmanager2][download][type] = git
-libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2.git
+libraries[soundmanager2][download][type] = get
+libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2/archive/master.zip
 libraries[soundmanager2][destination] = libraries
 
 
