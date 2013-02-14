@@ -51,16 +51,16 @@ projects[soundmanager2] = 2.0-beta1
 
 
 ;Distribution
-projects[pushtape_ui] = 1.0-alpha2
-projects[pushtape_discography] = 1.0-alpha2
-projects[pushtape_admin] = 1.0-alpha2
-projects[pushtape_news] = 1.0-alpha2
-projects[pushtape_events] = 1.0-alpha2
-projects[pushtape_photos] = 1.0-alpha2
-projects[pushtape_audio] = 1.0-alpha2
+projects[pushtape_ui] = 1.x-dev
+projects[pushtape_discography] = 1.x-dev
+projects[pushtape_admin] = 1.x-dev
+projects[pushtape_news] = 1.x-dev
+projects[pushtape_events] = 1.x-dev
+projects[pushtape_photos] = 1.x-dev
+projects[pushtape_audio] = 1.x-dev
 
 ;Theme
-projects[flux] = 1.0-alpha2
+projects[flux] = 1.x-dev
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'
