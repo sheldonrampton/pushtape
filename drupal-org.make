@@ -68,7 +68,7 @@ projects[flux] = 1.x-dev
 ; Note that any referenced third-party libraries *must* be listed at
 ; http://drupal.org/packaging-whitelist
 libraries[colorbox][download][type] = get
-libraries[colorbox][download][url] = http://jacklmoore.com/colorbox/colorbox.zip
+libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox/tarball/master
 libraries[colorbox][destination] = libraries
 libraries[soundmanager2][download][type] = get
 libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2/tarball/master
