@@ -4,7 +4,10 @@
 *
 * Perform actions to set up the site for this profile.
 */
-function pushtape_install() {  
+function pushtape_install() {
+  // Path to Soundmanager2
+  variable_set('sm2_path', 'profiles/pushtape/libraries/soundmanager2');
+
   // Enable themes
   theme_enable(array('seven', 'flux'));
   variable_set('admin_theme', 'flux');
