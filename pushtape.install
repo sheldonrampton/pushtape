@@ -44,6 +44,7 @@ function pushtape_install() {
   variable_set('node_submitted_track', FALSE);
   variable_set('node_submitted_album', FALSE);
   variable_set('node_submitted_event', FALSE);
+  variable_set('node_submitted_photoset', FALSE);
 
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '1');
