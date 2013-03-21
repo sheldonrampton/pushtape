@@ -39,13 +39,13 @@ projects[entityreference] = 1.0
 projects[entity] = 1.0
 projects[ctools] = 1.2
 projects[token] = 1.5
-projects[views] = 3.5
+projects[views] = 3.6
 ;Events
 projects[date] = 2.6
 projects[link] = 1.1
 ;Photos
 projects[colorbox] = 2.3
-projects[libraries] = 2.0
+projects[libraries] = 2.1
 ;Audio
 projects[soundmanager2] = 2.0-beta1
 
