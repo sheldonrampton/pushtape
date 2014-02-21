@@ -37,7 +37,7 @@ projects[features] = 1.0
 projects[pathauto] = 1.2
 projects[entityreference] = 1.1
 projects[entity] = 1.3
-projects[ctools] = 1.3
+projects[ctools] = 1.4
 projects[token] = 1.5
 projects[views] = 3.7
 ;Events
@@ -45,7 +45,7 @@ projects[date] = 2.7
 projects[link] = 1.2
 ;Photos
 projects[colorbox] = 2.5
-projects[libraries] = 2.1
+projects[libraries] = 2.2
 ;Audio
 projects[soundmanager2] = 2.0-beta1
 
