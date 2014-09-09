@@ -124,7 +124,7 @@ function pushtape_install() {
       'delta' => 'controls', 
       'theme' => $default_theme, 
       'status' => 1, 
-      'weight' => -1, 
+      'weight' => -5, 
       'region' => 'content',
       'visibility' => 0,        
       'pages' => "admin*\nnode/add/*\nnode/*/edit\nprint/*\nprintpdf/*\nsystem/ajax\nsystem/ajax/*", 
