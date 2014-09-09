@@ -60,7 +60,6 @@ projects[pushtape_photos] = 1.x-dev
 projects[pushtape_audio] = 1.x-dev
 projects[pushtape_player] = 1.x-dev
 
-
 ;Theme
 projects[flux] = 1.x-dev
 
