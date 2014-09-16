@@ -56,6 +56,7 @@ projects[pushtape_discography] = 1.x-dev
 projects[pushtape_admin] = 1.x-dev
 projects[pushtape_news] = 1.x-dev
 projects[pushtape_events] = 1.x-dev
+projects[pushtape_page] = 1.x-dev
 projects[pushtape_photos] = 1.x-dev
 projects[pushtape_audio] = 1.x-dev
 projects[pushtape_player] = 1.x-dev
