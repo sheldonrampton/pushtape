@@ -44,7 +44,7 @@ projects[views] = 3.8
 projects[date] = 2.8
 projects[link] = 1.2
 ;Photos
-projects[colorbox] = 2.7
+projects[colorbox] = 2.8
 projects[libraries] = 2.2
 ;Audio
 projects[soundmanager2] = 2.0-beta1
