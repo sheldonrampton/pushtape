@@ -28,9 +28,11 @@ dependencies[] = entity
 dependencies[] = ctools
 dependencies[] = token
 dependencies[] = views
+
 ;Events
 dependencies[] = date
 dependencies[] = link
+
 ;Photos
 dependencies[] = colorbox
 dependencies[] = libraries
@@ -43,6 +45,7 @@ dependencies[] = pushtape_admin
 dependencies[] = pushtape_news
 dependencies[] = pushtape_events
 dependencies[] = pushtape_photos
+dependencies[] = pushtape_page
 dependencies[] = pushtape_audio
 
 files[] = pushtape.profile
