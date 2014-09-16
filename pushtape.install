@@ -18,9 +18,9 @@ function pushtape_install() {
   variable_set('pathauto_node_track_pattern', 'track/[node:title]');
   variable_set('pathauto_node_news_pattern', 'news/[node:title]');
   variable_set('pathauto_node_event_pattern', 'event/[node:title]');
-  variable_set('pathauto_node_photo_pattern', 'photo/[node:title]');
+  variable_set('pathauto_node_photoset_pattern', 'photoset/[node:title]');
   // variable_set('clean_url', 1);
-  //variable_set('site_footer', 'Built with Pushtape');
+  // variable_set('site_footer', 'Built with Pushtape');
   variable_set('node_admin_theme', '1');  
   
   // Default "Basic page" to not be promoted and have comments disabled.
