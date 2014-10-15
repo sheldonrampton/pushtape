@@ -76,9 +76,9 @@ libraries[colorbox][destination] = libraries
 libraries[soundmanager2][download][type] = get
 libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2/tarball/master
 libraries[soundmanager2][destination] = libraries
-libraries[handlebars.js][download][type] = get
-libraries[handlebars.js][download][url] = https://github.com/wycats/handlebars.js/tarball/master
-libraries[handlebars.js][destination] = libraries
+; libraries[handlebars.js][download][type] = get
+; libraries[handlebars.js][download][url] = https://github.com/wycats/handlebars.js/tarball/master
+; libraries[handlebars.js][destination] = libraries
 
 ;@todo - Move this to the libraries directory
 ;library[profiler] = 2.0-beta1
