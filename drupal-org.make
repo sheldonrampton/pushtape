@@ -51,15 +51,19 @@ projects[soundmanager2] = 2.0-beta1
 
 
 ;Distribution
-projects[pushtape_ui] = 1.0-beta1
-projects[pushtape_discography] = 1.0-beta1
-projects[pushtape_admin] = 1.0-beta1
-projects[pushtape_news] = 1.0-beta1
-projects[pushtape_events] = 1.0-beta1
-projects[pushtape_photos] = 1.0-beta1
-projects[pushtape_audio] = 1.0-beta1
+projects[pushtape_ui] = 1.x-dev
+projects[pushtape_discography] = 1.x-dev
+projects[pushtape_admin] = 1.x-dev
+projects[pushtape_news] = 1.x-dev
+projects[pushtape_events] = 1.x-dev
+projects[pushtape_page] = 1.x-dev
+projects[pushtape_photos] = 1.x-dev
+projects[pushtape_audio] = 1.x-dev
+projects[pushtape_player] = 1.x-dev
+
+
 ;Theme
-projects[flux] = 1.0-beta1
+projects[flux] = 1.x-dev
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'
@@ -72,7 +76,9 @@ libraries[colorbox][destination] = libraries
 libraries[soundmanager2][download][type] = get
 libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2/tarball/master
 libraries[soundmanager2][destination] = libraries
-
+; libraries[handlebars.js][download][type] = get
+; libraries[handlebars.js][download][url] = https://github.com/wycats/handlebars.js/tarball/master
+; libraries[handlebars.js][destination] = libraries
 
 ;@todo - Move this to the libraries directory
 ;library[profiler] = 2.0-beta1
