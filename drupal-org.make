@@ -60,7 +60,7 @@ projects[pushtape_page] = 1.x-dev
 projects[pushtape_photos] = 1.x-dev
 projects[pushtape_audio] = 1.x-dev
 projects[pushtape_player] = 1.x-dev
-
+projects[pushtape_services] = 1.x-dev
 
 ;Theme
 projects[flux] = 1.x-dev
@@ -76,16 +76,13 @@ libraries[colorbox][destination] = libraries
 libraries[soundmanager2][download][type] = get
 libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2/tarball/master
 libraries[soundmanager2][destination] = libraries
-; libraries[handlebars.js][download][type] = get
-; libraries[handlebars.js][download][url] = https://github.com/wycats/handlebars.js/tarball/master
-; libraries[handlebars.js][destination] = libraries
+
 
 ;@todo - Move this to the libraries directory
 ;library[profiler] = 2.0-beta1
 
 ; For pre-releases, like Image 6.x-1.0-beta3, use this format:
 ;projects[image] = 1.0-beta3
-
 
 ; To define more attributes for a specific project than just the version,
 ; create another layer of array keys. In the example below, both the
