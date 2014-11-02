@@ -52,15 +52,15 @@ projects[soundmanager2] = 2.0-beta1
 
 ;Distribution
 projects[pushtape_ui] = 1.x-dev
-projects[pushtape_discography] = 1.x-dev
-projects[pushtape_admin] = 1.x-dev
+projects[pushtape_discography] = 1.0-beta1
+projects[pushtape_admin] = 1.0-beta1
 projects[pushtape_news] = 1.x-dev
-projects[pushtape_events] = 1.x-dev
-projects[pushtape_page] = 1.x-dev
-projects[pushtape_photos] = 1.x-dev
-projects[pushtape_audio] = 1.x-dev
-projects[pushtape_player] = 1.x-dev
-projects[pushtape_services] = 1.x-dev
+projects[pushtape_events] = 1.0-beta1
+; projects[pushtape_page] = 1.x-dev
+projects[pushtape_photos] = 1.0-beta1
+projects[pushtape_audio] = 1.0-beta1
+; projects[pushtape_player] = 1.x-dev
+; projects[pushtape_services] = 1.x-dev
 
 ;Theme
 projects[flux] = 1.x-dev
