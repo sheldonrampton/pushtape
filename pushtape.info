@@ -45,10 +45,10 @@ dependencies[] = pushtape_admin
 dependencies[] = pushtape_news
 dependencies[] = pushtape_events
 dependencies[] = pushtape_photos
-; dependencies[] = pushtape_page
+dependencies[] = pushtape_page
 dependencies[] = pushtape_audio
-; dependencies[] = pushtape_player
-; dependencies[] = pushtape_services
+dependencies[] = pushtape_player
+dependencies[] = pushtape_services
 
 files[] = pushtape.profile
 
