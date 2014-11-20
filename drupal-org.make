@@ -8,7 +8,7 @@
 
 ; The version of Drupal the profile is built for. You must include both a
 ; major and a minor release - just specifying 6.x won't work
-core = 7.32
+core = 7.34
 api = 2
 
 ; OPTIONAL ATTRIBUTES
@@ -37,12 +37,12 @@ projects[features] = 2.2
 projects[pathauto] = 1.2
 projects[entityreference] = 1.1
 projects[entity] = 1.5
-projects[ctools] = 1.4
+projects[ctools] = 1.5
 projects[token] = 1.5
 projects[views] = 3.8
 ;Events
 projects[date] = 2.8
-projects[link] = 1.2
+projects[link] = 1.3
 ;Photos
 projects[colorbox] = 2.8
 projects[libraries] = 2.2
@@ -51,19 +51,19 @@ projects[soundmanager2] = 2.0-beta1
 
 
 ;Distribution
-projects[pushtape_ui] = 1.x-dev
-projects[pushtape_discography] = 1.x-dev
-projects[pushtape_admin] = 1.x-dev
-projects[pushtape_news] = 1.x-dev
-projects[pushtape_events] = 1.x-dev
-projects[pushtape_page] = 1.x-dev
-projects[pushtape_photos] = 1.x-dev
-projects[pushtape_audio] = 1.x-dev
-projects[pushtape_player] = 1.x-dev
-projects[pushtape_services] = 1.x-dev
+projects[pushtape_ui] = 1.0-beta1
+projects[pushtape_discography] = 1.0-beta2
+projects[pushtape_admin] = 1.0-beta2
+projects[pushtape_news] = 1.0-beta2
+projects[pushtape_events] = 1.0-beta2
+projects[pushtape_page] = 1.0-beta1
+projects[pushtape_photos] = 1.0-beta2
+projects[pushtape_audio] = 1.0-beta2
+projects[pushtape_player] = 1.0-beta1
+; projects[pushtape_services] = 1.x-dev
 
 ;Theme
-projects[flux] = 1.x-dev
+projects[flux] = 1.0-beta2
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'
@@ -76,7 +76,9 @@ libraries[colorbox][destination] = libraries
 libraries[soundmanager2][download][type] = get
 libraries[soundmanager2][download][url] = https://github.com/scottschiller/SoundManager2/tarball/master
 libraries[soundmanager2][destination] = libraries
-
+libraries[genericons][download][type] = get
+libraries[genericons][download][url] = https://github.com/Automattic/Genericons/tarball/master
+libraries[genericons][destination] = libraries
 
 ;@todo - Move this to the libraries directory
 ;library[profiler] = 2.0-beta1
