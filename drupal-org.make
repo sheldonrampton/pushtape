@@ -63,7 +63,7 @@ projects[pushtape_player] = 1.0-beta1
 ; projects[pushtape_services] = 1.x-dev
 
 ;Theme
-projects[flux] = 1.0-beta3
+projects[flux] = 1.0-beta4
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'
