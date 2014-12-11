@@ -1,10 +1,12 @@
 <?php
+
 /**
-* Implement hook_install().
-*
-* Perform actions to set up the site for this profile.
-*/
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
 function pushtape_install() {
+
   // Path to Soundmanager2
   variable_set('sm2_path', 'profiles/pushtape/libraries/soundmanager2');
 
@@ -188,12 +190,11 @@ function pushtape_install() {
  */
 function pushtape_install_tasks(&$install_state) {
 
-     // Remove any status messages that might have been set. They are unneeded.
+  // Remove any status messages that might have been set. They are unneeded.
   drupal_get_messages('status', TRUE);
+  
   $tasks = array(
-  'pushtape_final_site_setup' => array(
-                                    
-    ),
+    'pushtape_final_site_setup' => array(),
   );
   return $tasks;
 }
@@ -202,7 +203,6 @@ function pushtape_install_tasks(&$install_state) {
  * Return system status before completing installation.
  */
 function pushtape_final_site_setup() {
-  //require_once DRUPAL_ROOT . '/modules/system/system.admin.inc';
 
   drupal_set_title(st('@drupal installation complete', array('@drupal' => drupal_install_profile_distribution_name())), PASS_THROUGH);
   $messages = drupal_set_message();
@@ -217,9 +217,12 @@ function pushtape_final_site_setup() {
   $output .=   '<li>Clean URLS are <strong>' . $clean . '.</strong></li>';  
   $output .=   '<li>Default file upload limit is <strong>' . $size . '.</strong></li>';
   $output .= '</ul>';
-  // Flush all caches to ensure that any full bootstraps during the installer
-  // do not leave stale cached data, and that any content types or other items
-  // registered by the installation profile are registered correctly.
+  
+  /**
+   * Flush all caches to ensure that any full bootstraps during the installer
+   * do not leave stale cached data, and that any content types or other items
+   * registered by the installation profile are registered correctly.
+   */
   drupal_flush_all_caches();
 
   // Remember the profile which was used.
@@ -237,7 +240,6 @@ function pushtape_final_site_setup() {
   drupal_cron_run();
 
   return $output;
-
 }
 
 
@@ -274,7 +276,6 @@ function pushtape_install_tasks_alter(&$tasks, $install_state) {
  * for us to modify it in a clean way.
  */
 function _pushtape_set_theme($target_theme) {
-  //print '<pre>';print_r($GLOBALS);print '</pre>';
   if ($GLOBALS['theme'] != $target_theme) {
     unset($GLOBALS['theme']);
     drupal_static_reset();
@@ -291,8 +292,7 @@ function _pushtape_set_theme($target_theme) {
 function install_welcome($form, &$form_state, &$install_state) {
   drupal_set_title(st('Welcome'));
 
-  $message = '<p>' . st('After installing this distribution, you will have a fully featured music website for your band
-                         complete with tracks, albums, news, photos, and show listings.') . '</p>';
+  $message = '<p>' . st('After installing this distribution, you will have a fully featured music website for your band complete with tracks, albums, news, photos, and show listings.') . '</p>';
 
   $form = array();
   $form['welcome_message'] = array(
@@ -311,7 +311,6 @@ function install_welcome($form, &$form_state, &$install_state) {
 
 function install_welcome_submit($form, &$form_state) {
   global $install_state;
-
   $install_state['parameters']['welcome'] = 'done';
   $install_state['parameters']['locale'] = 'en';
 }
