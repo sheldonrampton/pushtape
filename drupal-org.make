@@ -40,30 +40,29 @@ projects[entity] = 1.5
 projects[ctools] = 1.5
 projects[token] = 1.5
 projects[views] = 3.8
-;Events
+; Events
 projects[date] = 2.8
 projects[link] = 1.3
-;Photos
+; Photos
 projects[colorbox] = 2.8
 projects[libraries] = 2.2
-;Audio
-projects[soundmanager2] = 2.0-beta1
+; Soundmanager2 module (deprecated, Pushtape Player only needs libraries/soundmanager2)
+; projects[soundmanager2] = 2.0-beta1
 
-
-;Distribution
-projects[pushtape_ui] = 1.0-beta1
+;Distribution Custom
+projects[pushtape_ui] = 1.0-beta2
+projects[pushtape_player] = 1.0-beta2
+projects[pushtape_services] = 1.0-beta1
+; Distribution Features
 projects[pushtape_discography] = 1.0-beta2
 projects[pushtape_admin] = 1.0-beta2
 projects[pushtape_news] = 1.0-beta2
 projects[pushtape_events] = 1.0-beta2
 projects[pushtape_page] = 1.0-beta1
 projects[pushtape_photos] = 1.0-beta2
-projects[pushtape_audio] = 1.0-beta2
-projects[pushtape_player] = 1.0-beta1
-; projects[pushtape_services] = 1.x-dev
-
-;Theme
-projects[flux] = 1.0-beta4
+projects[pushtape_audio] = 1.0-beta3
+; Distribution Theme
+projects[flux] = 1.0-beta5
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'

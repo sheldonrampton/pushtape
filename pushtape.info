@@ -37,7 +37,6 @@ dependencies[] = link
 dependencies[] = colorbox
 dependencies[] = libraries
 
-
 ;Install Profile
 dependencies[] = pushtape_ui
 dependencies[] = pushtape_discography
@@ -48,7 +47,7 @@ dependencies[] = pushtape_photos
 dependencies[] = pushtape_page
 dependencies[] = pushtape_audio
 dependencies[] = pushtape_player
-; dependencies[] = pushtape_services
+dependencies[] = pushtape_services
 
 files[] = pushtape.profile
 
