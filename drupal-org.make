@@ -52,7 +52,7 @@ projects[libraries] = 2.2
 ;Distribution Custom
 projects[pushtape_ui] = 1.0-beta2
 projects[pushtape_player] = 1.0-beta2
-projects[pushtape_services] = 1.0-beta1
+projects[pushtape_services] = 1.0-beta2
 ; Distribution Features
 projects[pushtape_discography] = 1.0-beta2
 projects[pushtape_admin] = 1.0-beta2
