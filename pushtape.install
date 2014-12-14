@@ -7,9 +7,13 @@
  */
 function pushtape_install() {
 
-  // Path to Soundmanager2
-  variable_set('sm2_path', 'profiles/pushtape/libraries/soundmanager2');
+  // (Deprecated) Path to Soundmanager2
+  // variable_set('sm2_path', 'profiles/pushtape/libraries/soundmanager2');
 
+  // Colorbox custom links
+  variable_set('colorbox_inline', 1);
+  variable_set('colorbox_load', 1);
+  
   // Enable themes
   theme_enable(array('seven', 'flux'));
   variable_set('admin_theme', 'flux');
