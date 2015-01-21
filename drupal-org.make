@@ -33,7 +33,7 @@ api = 2
 ; you would use:
 
 ;Contrib
-projects[features] = 2.2
+projects[features] = 2.3
 projects[pathauto] = 1.2
 projects[entityreference] = 1.1
 projects[entity] = 1.5
@@ -52,7 +52,7 @@ projects[libraries] = 2.2
 ;Distribution Custom
 projects[pushtape_ui] = 1.0-beta2
 projects[pushtape_player] = 1.0-beta2
-projects[pushtape_services] = 1.0-beta2
+projects[pushtape_services] = 1.0-beta3
 ; Distribution Features
 projects[pushtape_discography] = 1.0-beta2
 projects[pushtape_admin] = 1.0-beta2
@@ -62,7 +62,7 @@ projects[pushtape_page] = 1.0-beta1
 projects[pushtape_photos] = 1.0-beta2
 projects[pushtape_audio] = 1.0-beta3
 ; Distribution Theme
-projects[flux] = 1.0-beta6
+projects[flux] = 1.0-beta7
 
 ; To include a code library external to the Drupal project, such as
 ; jQuery UI or TinyMCE, you can include them using the 'libraries'
