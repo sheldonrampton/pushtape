@@ -36,10 +36,10 @@ api = 2
 projects[features] = 2.3
 projects[pathauto] = 1.2
 projects[entityreference] = 1.1
-projects[entity] = 1.5
-projects[ctools] = 1.5
-projects[token] = 1.5
-projects[views] = 3.8
+projects[entity] = 1.6
+projects[ctools] = 1.6
+projects[token] = 1.6
+projects[views] = 3.10
 ; Events
 projects[date] = 2.8
 projects[link] = 1.3
