@@ -8,7 +8,7 @@
 
 ; The version of Drupal the profile is built for. You must include both a
 ; major and a minor release - just specifying 6.x won't work
-core = 7.37
+core = 7.38
 api = 2
 
 ; OPTIONAL ATTRIBUTES
@@ -44,7 +44,7 @@ projects[views] = 3.11
 projects[date] = 2.8
 projects[link] = 1.3
 ; Photos
-projects[colorbox] = 2.8
+projects[colorbox] = 2.9
 projects[libraries] = 2.2
 ; Soundmanager2 module (deprecated, Pushtape Player only needs libraries/soundmanager2)
 ; projects[soundmanager2] = 2.0-beta1
