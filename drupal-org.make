@@ -8,7 +8,7 @@
 
 ; The version of Drupal the profile is built for. You must include both a
 ; major and a minor release - just specifying 6.x won't work
-core = 7.38
+core = 7.39
 api = 2
 
 ; OPTIONAL ATTRIBUTES
@@ -33,11 +33,11 @@ api = 2
 ; you would use:
 
 ;Contrib
-projects[features] = 2.5
+projects[features] = 2.6
 projects[pathauto] = 1.2
 projects[entityreference] = 1.1
 projects[entity] = 1.6
-projects[ctools] = 1.7
+projects[ctools] = 1.9
 projects[token] = 1.6
 projects[views] = 3.11
 ; Events
