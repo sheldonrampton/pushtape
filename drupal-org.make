@@ -39,7 +39,7 @@ projects[entityreference] = 1.1
 projects[entity] = 1.6
 projects[ctools] = 1.9
 projects[token] = 1.6
-projects[views] = 3.12
+projects[views] = 3.13
 ; Events
 projects[date] = 2.9
 projects[link] = 1.3
