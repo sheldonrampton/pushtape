@@ -46,6 +46,9 @@ projects[link] = 1.3
 ; Photos
 projects[colorbox] = 2.10
 projects[libraries] = 2.2
+; WYSIWYG text editing
+projects[wysiwyg_starter] = 1.x-dev
+
 ; Soundmanager2 module (deprecated, Pushtape Player only needs libraries/soundmanager2)
 ; projects[soundmanager2] = 2.0-beta1
 

@@ -38,6 +38,10 @@ dependencies[] = link
 dependencies[] = colorbox
 dependencies[] = libraries
 
+; WYSIWYG editing
+dependencies[] = wysiwyg_starter
+dependencies[] = wysiwyg_starter_formats
+
 ;Install Profile
 dependencies[] = pushtape_ui
 dependencies[] = pushtape_discography
